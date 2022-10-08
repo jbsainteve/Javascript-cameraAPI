@@ -52,7 +52,7 @@ function updateCanvas(){
 
 	CONTEXT.clearRect(0,0,CANVAS.width,CANVAS.height);
 	
-	CONTEXT.globalAlpha=0.5;
+	CONTEXT.globalAlpha=0.3;
 	CONTEXT.drawImage(VIDEO,
 		SIZE.x, SIZE.y,
 		SIZE.width, SIZE.height);	
